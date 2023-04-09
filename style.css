@@ -1966,9 +1966,14 @@ textarea:focus {
         background-blend-mode: multiply;
         background-color: rgba(70, 70, 70, 0.4);
         /* background-color: rgb(154, 174, 155); */
+        /* height: 75vh; */
     }
 
 
+    .hero {
+        /* background-color: rgb(255, 77, 106, 0.2); */
+        padding: 15vh 40px;
+    }
 
     .quote-hero {
         /* background-color: pink; */
@@ -1989,6 +1994,10 @@ textarea:focus {
 
     .short-about h1 {
         padding-top: 30px;
+    }
+
+    .inner-s-about .text p {
+        width: 100%;
     }
 
     .inner-services {
@@ -2177,12 +2186,14 @@ textarea:focus {
     }
 
     .footer .links {
-        height: auto;
-        background-color: teal;
-        padding: 100px 50px;
+        padding: 50px 0px 175px 0;
         flex-direction: column;
     }
 
+    .footer .links .socials {
+        /* background-color: orange; */
+        padding-bottom: 10px;
+    }
 
     .footer .links .socials ul {
         flex-direction: row;
@@ -2190,6 +2201,14 @@ textarea:focus {
 
     .footer .links .socials ul li {
         padding: 10px;
+    }
+
+    .footer .links .logo {
+        padding-bottom: 10px;
+    }
+
+    .footer .links .site {
+        padding-bottom: 10px;
     }
 
     .footer .links .site ul li {
