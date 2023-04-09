@@ -1,0 +1,2200 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* width */
+/* ::-webkit-scrollbar {
+    width: 10px;
+} */
+
+/* Track */
+/* ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+} */
+
+/* Handle */
+/* ::-webkit-scrollbar-thumb {
+    background: #888;
+} */
+
+/* Handle on hover */
+/* ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+} */
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Rozha One';
+}
+
+p {
+    font-family: 'Questrial';
+}
+
+button {
+    font-family: 'Questrial';
+}
+
+body {
+    background-color: rgb(243, 245, 239);
+    font-family: 'Questrial';
+}
+
+
+/* NAVIGATION */
+
+#toggler,
+label {
+    display: none;
+}
+
+label {
+    color: white;
+}
+
+.links-list {
+    display: flex;
+}
+
+.navigation {
+    background-color: rgb(243, 245, 239);
+    font-family: 'Questrial';
+    display: flex;
+    width: auto;
+    position: sticky;
+    border-bottom: 1px solid rgb(215, 215, 215);
+}
+
+.navbar {
+    display: flex;
+    /* background-color: orange; */
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 35px 350px;
+}
+
+
+/* .navbar .logo a h1 {
+    font-size: 50px;
+} */
+
+.navbar .links ul li a {
+    text-decoration: none;
+    color: rgb(79, 79, 79);
+    font-size: 14px;
+}
+
+.navbar .links ul {
+    display: flex;
+    list-style: none;
+    text-align: center;
+}
+
+.navbar .links ul li {
+    padding: 15px 35px 15px 0px;
+}
+
+.navbar .links ul li a:hover {
+    color: rgb(154, 174, 155);
+    font-weight: bold;
+}
+
+.navigation .logo a {
+    text-decoration: none;
+    font-size: 50px;
+}
+
+
+.navigation button {
+    /* margin-left: 20px; */
+    border: 0;
+    color: rgb(243, 245, 239);
+    background-color: rgb(177, 100, 129);
+    padding: 10px 20px;
+    border-radius: 30px;
+    transition: ease-in 0.2s;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.navigation button:hover {
+    color: white;
+    background-color: rgb(106, 68, 82);
+}
+
+
+/* LANDING HERO */
+
+.landing-hero {
+    background-image: url(img/bg1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.header {
+    padding: 5vh 350px;
+    font-size: 24px;
+}
+
+.hero {
+    /* background-color: rgb(255, 77, 106, 0.2); */
+    padding: 25vh 350px;
+}
+
+.hero-text {
+    color: rgb(243, 245, 239);
+}
+
+.hero-text h1 {
+    font-size: 58px;
+    width: 60%;
+}
+
+.hero-text p {
+    margin-top: 10px;
+    font-size: 26px;
+}
+
+.hero-text button {
+    color: rgb(243, 245, 239);
+    background-color: rgb(177, 100, 129);
+    border: 0;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+    border-radius: 30px;
+    transition: ease-in 0.2s;
+}
+
+.hero-text button:hover {
+    color: white;
+    background-color: rgb(106, 68, 82);
+}
+
+
+/* QUOTE */
+
+.quote {
+    background-color: rgb(243, 245, 239);
+    padding: 15vh 350px;
+    display: flex;
+    justify-content: center;
+}
+
+.quote-hero {
+    /* background-color: pink; */
+    width: 60%;
+}
+
+.quote-text {
+    text-align: center;
+}
+
+.quote-text h2 {
+    color: rgb(79, 79, 79);
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.quote-text p {
+    color: rgb(79, 79, 79);
+    font-size: 20px;
+    line-height: 35px;
+}
+
+
+/* SHORT ABOUT */
+
+.short-about {
+    background-color: rgb(228, 194, 207);
+    color: rgb(243, 245, 239);
+    padding: 10vh 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inner-s-about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.short-about h1 {
+    font-size: 48px;
+    padding-bottom: 40px;
+}
+
+.short-about p {
+    color: rgb(94, 94, 94);
+    font-size: 20px;
+    line-height: 35px;
+    width: 80%;
+    padding-bottom: 40px;
+}
+
+.short-about button {
+    border: none;
+    background-color: rgb(177, 100, 129);
+    color: rgb(243, 245, 239);
+    border: 0;
+    padding: 20px 30px;
+    font-size: 18px;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: ease-in 0.2s;
+}
+
+.short-about button:hover {
+    color: rgb(243, 245, 239);
+    background-color: rgb(106, 68, 82);
+}
+
+.s-about-img img {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+
+/* SERVICES */
+
+.services {
+    background-color: rgb(154, 174, 155);
+    color: rgb(243, 245, 239);
+    padding: 15vh 350px;
+    display: flex;
+}
+
+
+.services h2 {
+    font-size: 38px;
+}
+
+.services p {
+    font-size: 22px;
+}
+
+.inner-services {
+    display: flex;
+}
+
+.service-text {
+    width: 50%;
+}
+
+.service-text h1 {
+    font-size: 48px;
+    padding-bottom: 30px;
+}
+
+.service-text p {
+    font-size: 20px;
+    line-height: 35px;
+    padding-bottom: 30px;
+}
+
+
+.service-list {
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    width: 50%;
+}
+
+.service-list li {
+    font-family: 'Questrial';
+    list-style: circle;
+    padding: 10px 0;
+    margin-left: 100px;
+    font-size: 24px;
+}
+
+
+.services button {
+    border: none;
+    background-color: rgb(177, 100, 129);
+    color: rgb(243, 245, 239);
+    border: 0;
+    padding: 20px 70px;
+    font-size: 18px;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: ease-in 0.2s;
+}
+
+.services button:hover {
+    color: rgb(243, 245, 239);
+    background-color: rgb(106, 68, 82);
+}
+
+/* REVIEWS */
+
+.reviews {
+    background-color: rgb(243, 245, 239);
+    color: rgb(79, 79, 79);
+    padding: 15vh 350px;
+}
+
+.reviews img {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.reviews h3 {
+    color: rgb(177, 100, 129);
+}
+
+.reviews button {
+    border: none;
+    background-color: rgb(177, 100, 129);
+    color: rgb(243, 245, 239);
+}
+
+.reviews button:hover {
+    color: rgb(243, 245, 239);
+    background-color: rgb(106, 68, 82);
+}
+
+.reviews .inner-reviews {
+    display: flex;
+}
+
+
+.reviews .reviews-text {
+    padding: 0 0 0 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.reviews .reviews-text h1 {
+    font-size: 48px;
+    padding-bottom: 20px;
+}
+
+.reviews .reviews-text h2 {
+    color: rgb(177, 100, 129);
+    padding-bottom: 30px;
+}
+
+.reviews .reviews-text p {
+    font-size: 20px;
+    line-height: 35px;
+    padding-bottom: 20px;
+}
+
+.reviews button {
+    border: none;
+    background-color: rgb(177, 100, 129);
+    color: rgb(243, 245, 239);
+    border: 0;
+    padding: 20px 70px;
+    font-size: 18px;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: ease-in 0.2s;
+}
+
+.reviews button:hover {
+    color: rgb(243, 245, 239);
+    background-color: rgb(106, 68, 82);
+}
+
+/* -------------------------------- ABOUT PAGE ---------------------------------- */
+.about-header {
+    background-color: rgb(154, 174, 155);
+    color: rgb(243, 245, 239);
+}
+
+/* FOOTER */
+
+
+.footer {
+    background-color: rgb(94, 94, 94);
+    display: flex;
+    padding: 50px 350px;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer .links {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer .links .socials ul {
+    display: flex;
+    list-style: none;
+}
+
+.footer .links .socials ul li {
+    padding-right: 15px;
+}
+
+.footer .links .logo {
+    text-align: center;
+    color: white;
+}
+
+.footer .links .logo h1 {
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    padding: 0;
+    margin: 0;
+}
+
+.footer .links .logo p {
+    color: rgb(177, 100, 129);
+    font-size: 18px;
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+}
+
+.footer .links .site ul {
+    display: flex;
+    list-style: none;
+}
+
+.footer .links .site ul li {
+    padding-left: 15px;
+}
+
+
+
+/* HEADER HERO */
+
+.header-hero {
+    background-color: rgb(148, 171, 157);
+    color: rgb(243, 245, 239);
+}
+
+.about {
+    background-color: rgb(243, 245, 239);
+    color: rgb(94, 94, 94);
+}
+
+.lower-hero {
+    background-color: rgb(154, 174, 155);
+    color: rgb(243, 245, 239);
+}
+
+.lower-hero h2 {
+    color: rgb(243, 245, 239);
+}
+
+.lower-hero p {
+    color: rgb(243, 245, 239);
+}
+
+
+.lower-hero button {
+    border: none;
+    background-color: rgb(177, 100, 129);
+    color: rgb(243, 245, 239);
+}
+
+.lower-hero button:hover {
+    color: rgb(243, 245, 239);
+    background-color: rgb(106, 68, 82);
+}
+
+
+/* ABOUT PAGE */
+
+.about {
+    background-color: rgb(243, 245, 239);
+    color: rgb(94, 94, 94);
+    padding: 10vh 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inner-about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about h1 {
+    font-size: 48px;
+    padding-bottom: 40px;
+    font-weight: 500;
+}
+
+.about p {
+    color: rgb(94, 94, 94);
+    font-size: 20px;
+    line-height: 35px;
+    width: 80%;
+    padding-bottom: 40px;
+}
+
+.about-img img {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.about-quote {
+    background-color: rgb(148, 171, 157);
+    color: rgb(243, 245, 239);
+    padding: 10vh 350px;
+    display: flex;
+    justify-content: center;
+}
+
+.about-quote-hero {
+    /* background-color: pink; */
+    width: 60%;
+}
+
+.about-quote-text {
+    text-align: center;
+}
+
+.about-quote-text h2 {
+    color: rgb(243, 245, 239);
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.about-quote-text p {
+    color: rgb(79, 79, 79);
+    font-size: 20px;
+    line-height: 35px;
+}
+
+.about-quote button {
+    border: none;
+    background-color: rgb(177, 100, 129);
+    color: rgb(243, 245, 239);
+    border: 0;
+    padding: 20px 30px;
+    font-size: 18px;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: ease-in 0.2s;
+}
+
+.about-quote button:hover {
+    color: rgb(243, 245, 239);
+    background-color: rgb(106, 68, 82);
+}
+
+
+/*------------------------------ SERVICES PAGE ----------------------------------*/
+
+.services-header {
+    background-color: rgb(148, 171, 157);
+    color: rgb(243, 245, 239);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.services-text-header {
+    width: 60%;
+    text-align: center;
+}
+
+
+.services-text-header h2 {
+    color: rgb(79, 79, 79);
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.services-text-header p {
+    padding-top: 20px;
+    color: rgb(243, 245, 239);
+    font-size: 20px;
+    line-height: 35px;
+}
+
+hr {
+    background-color: rgb(177, 100, 129);
+    height: 3px;
+    border: none;
+    border-radius: 10px;
+    width: 64%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.service-info {
+    /* background-color: rgb(148, 171, 157); */
+    background-color: rgb(243, 245, 239);
+    color: rgb(94, 94, 94);
+    /* color: rgb(243, 245, 239); */
+    ;
+    padding: 10vh 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inner-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.service-info h1 {
+    font-size: 40px;
+    padding-bottom: 40px;
+    font-weight: 500;
+}
+
+.service-info p {
+    color: rgb(94, 94, 94);
+    /* color: rgb(243, 245, 239); */
+    font-size: 20px;
+    line-height: 35px;
+    width: 80%;
+    padding-bottom: 40px;
+}
+
+.info-img img {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.service-quote {
+    background-color: rgb(148, 171, 157);
+    color: rgb(243, 245, 239);
+    padding: 10vh 350px;
+    display: flex;
+    justify-content: center;
+}
+
+.service-info .inner-info-text {
+    display: flex;
+}
+
+
+.service-info button {
+    border: none;
+    background-color: rgb(177, 100, 129);
+    color: rgb(243, 245, 239);
+    border: 0;
+    padding: 20px 30px;
+    font-size: 18px;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: ease-in 0.2s;
+}
+
+.service-info button:hover {
+    color: rgb(243, 245, 239);
+    background-color: rgb(106, 68, 82);
+}
+
+.service-hero {
+    background-color: rgb(148, 171, 157);
+    color: rgb(243, 245, 239);
+    padding: 10vh 350px;
+    display: flex;
+    justify-content: center;
+}
+
+.service-button-hero {
+    /* background-color: pink; */
+    width: 60%;
+}
+
+.service-button-hero {
+    text-align: center;
+}
+
+.service-text-hero h2 {
+    color: rgb(243, 245, 239);
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.service-text-hero p {
+    color: rgb(79, 79, 79);
+    font-size: 20px;
+    line-height: 35px;
+}
+
+.service-button-hero button {
+    border: none;
+    background-color: rgb(177, 100, 129);
+    color: rgb(243, 245, 239);
+    border: 0;
+    padding: 20px 30px;
+    font-size: 18px;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: ease-in 0.2s;
+}
+
+.service-button-hero button:hover {
+    color: rgb(243, 245, 239);
+    background-color: rgb(106, 68, 82);
+}
+
+.info-img ul {
+    /* background-color: orange; */
+    font-size: 18px;
+    line-height: 35px;
+    width: 25vw;
+    padding-left: 20px;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    list-style: circle;
+}
+
+.info-img h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(177, 100, 129);
+    /* padding-bottom: 20px; */
+    font-family: 'Questrial';
+}
+
+
+/* --------------------------- REVIEWS PAGE ---------------------------- */
+
+.reviews-header {
+    background-color: rgb(148, 171, 157);
+    color: rgb(243, 245, 239);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.reviews-text-header h2 {
+    color: rgb(79, 79, 79);
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.reviews-text-header p {
+    padding-top: 20px;
+    color: rgb(243, 245, 239);
+    font-size: 20px;
+    line-height: 35px;
+}
+
+.reviews-quote {
+    background-image: url(img/review.jpg);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: hue;
+    background-color: rgba(70, 70, 70, 0.7);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 50vh;
+}
+
+.reviews-quote-text {
+    width: 95%;
+    text-align: center;
+    color: rgb(243, 245, 239);
+    font-size: 30px;
+    line-height: 45px;
+}
+
+
+.review-info {
+    /* background-color: rgb(148, 171, 157); */
+    background-color: rgb(243, 245, 239);
+    color: rgb(94, 94, 94);
+    /* color: rgb(243, 245, 239); */
+    ;
+    padding: 10vh 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.review-inner-quote {
+    /* background-color: orange; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.review-inner-quote h1 {
+    color: rgb(177, 100, 129);
+    font-size: 60px;
+}
+
+.review-inner-quote .text {
+    padding: 35px;
+    /* background-color: teal; */
+    width: 50%;
+}
+
+
+.review-inner-quote .text2 {
+    padding: 35px;
+    /* background-color: rgb(96, 154, 154); */
+    width: 50%;
+}
+
+.review-info h3 {
+    font-size: 30px;
+    font-weight: 500;
+    color: rgb(177, 100, 129);
+}
+
+.review-info p {
+    color: rgb(94, 94, 94);
+    /* color: rgb(243, 245, 239); */
+    font-size: 24px;
+    line-height: 50px;
+    /* width: 80%; */
+    padding-bottom: 40px;
+}
+
+
+.service-quote {
+    background-color: rgb(148, 171, 157);
+    color: rgb(243, 245, 239);
+    padding: 10vh 350px;
+    display: flex;
+    justify-content: center;
+}
+
+/* ------------------- CONTACT PAGE ----------------------*/
+
+.contact-header {
+    background-color: rgb(148, 171, 157);
+    color: rgb(243, 245, 239);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-text-header {
+    width: 60%;
+    text-align: center;
+}
+
+
+.contact {
+    background-color: rgb(243, 245, 239);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 60vh;
+    padding: 0vh 350px;
+}
+
+.contact-form {
+    /* background-color: teal; */
+    /* padding: 0vh 150px; */
+    width: 55%;
+}
+
+
+.contact-form p {
+    color: rgb(94, 94, 94);
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    line-height: 35px;
+    text-align: center;
+}
+
+.contact .form {
+    /* background-color: orange; */
+    padding-top: 30px;
+}
+
+.contact .form form {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.contact .form form input {
+    padding: 10px 8px 10px 8px;
+    margin-bottom: 10px;
+    font-family: 'Questrial';
+    font-size: 16px;
+    border: 2px solid rgb(225, 225, 225);
+}
+
+.contact .form form textarea {
+    padding: 10px 8px 10px 8px;
+    margin-bottom: 10px;
+    font-family: 'Questrial';
+    font-size: 16px;
+    border: 2px solid rgb(225, 225, 225);
+    resize: none;
+}
+
+
+input[type=text] {
+    box-sizing: border-box;
+    -webkit-transition: 0.5s;
+    transition: 0.2s;
+    outline: none;
+}
+
+textarea[type=text] {
+    box-sizing: border-box;
+    -webkit-transition: 0.5s;
+    transition: 0.2s;
+    outline: none;
+}
+
+input:focus {
+    outline: none !important;
+    box-shadow: 0 0 10px #c6c6c6;
+}
+
+textarea:focus {
+    outline: none !important;
+    box-shadow: 0 0 10px #c6c6c6;
+
+}
+
+.contact .form form input[type=text]:focus {
+    border: 2px solid rgb(207, 207, 207);
+}
+
+.contact .form form textarea:focus {
+    /* outline: 2px solid rgb(207, 207, 207); */
+    border: 2px solid rgb(207, 207, 207);
+}
+
+.contact .form button {
+    border: none;
+    background-color: rgb(177, 100, 129);
+    color: rgb(243, 245, 239);
+    border: 0;
+    padding: 18px 30px;
+    font-size: 18px;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: ease-in 0.2s;
+}
+
+.contact .form button:hover {
+    color: rgb(243, 245, 239);
+    background-color: rgb(106, 68, 82);
+}
+
+
+/* MEDIA QUERIES */
+
+
+@media only screen and (max-width:1536px) {
+    .navbar {
+        padding: 35px 280px;
+    }
+
+    .header {
+        padding: 5vh 280px;
+        font-size: 24px;
+    }
+
+    .hero {
+        /* background-color: rgb(255, 77, 106, 0.2); */
+        padding: 30vh 280px;
+    }
+
+    .hero-text h1 {
+        font-size: 48px;
+        width: 80%;
+    }
+
+    .quote {
+        padding: 15vh 200px;
+    }
+
+    .quote-text h2 {
+        color: rgb(79, 79, 79);
+        font-size: 34px;
+        font-weight: 500;
+    }
+
+    .short-about {
+        padding: 10vh 280px;
+    }
+
+    .s-about-img img {
+        width: 400px;
+        height: 400px;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+
+    .services {
+        background-color: rgb(154, 174, 155);
+        color: rgb(243, 245, 239);
+        padding: 15vh 280px;
+        display: flex;
+    }
+
+    .reviews {
+        background-color: rgb(243, 245, 239);
+        color: rgb(79, 79, 79);
+        padding: 15vh 280px;
+    }
+
+    .reviews img {
+        width: 400px;
+        height: 400px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+
+    /* ABOUT PAGE ---------------------------- */
+
+    .about {
+        padding: 10vh 280px;
+    }
+
+    .about-img img {
+        width: 400px;
+        height: 400px;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+
+    /* SERVICE PAGE -------------------------- */
+
+    .services-text-header {
+        width: 80%;
+        text-align: center;
+    }
+
+    .service-info {
+        padding: 10vh 280px;
+    }
+
+    .service-info p {
+        width: 90%;
+    }
+
+    .info-img img {
+        width: 400px;
+        height: 400px;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+
+    .review-info {
+        padding: 10vh 250px;
+    }
+
+    .contact {
+        background-color: rgb(243, 245, 239);
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        height: 60vh;
+        padding: 0vh 280px;
+    }
+
+    .footer {
+        background-color: rgb(94, 94, 94);
+        display: flex;
+        padding: 50px 280px;
+    }
+}
+
+@media only screen and (max-width:1366px) {
+    .navbar {
+        padding: 35px 220px;
+    }
+
+    .header {
+        padding: 5vh 220px;
+        font-size: 24px;
+    }
+
+    .hero {
+        /* background-color: rgb(255, 77, 106, 0.2); */
+        padding: 30vh 220px;
+    }
+
+    .hero-text h1 {
+        font-size: 48px;
+        width: 80%;
+    }
+
+    .quote {
+        padding: 15vh 100px;
+    }
+
+    .quote-text h2 {
+        color: rgb(79, 79, 79);
+        font-size: 34px;
+        font-weight: 500;
+    }
+
+    .short-about {
+        padding: 10vh 220px;
+    }
+
+    .s-about-img img {
+        width: 350px;
+        height: 350px;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+
+    .services {
+        background-color: rgb(154, 174, 155);
+        color: rgb(243, 245, 239);
+        padding: 15vh 220px;
+        display: flex;
+    }
+
+    .reviews {
+        background-color: rgb(243, 245, 239);
+        color: rgb(79, 79, 79);
+        padding: 15vh 220px;
+    }
+
+    .reviews img {
+        width: 350px;
+        height: 350px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+
+    /* ABOUT PAGE ---------------------------- */
+
+    .about {
+        padding: 10vh 220px;
+    }
+
+    .about-img img {
+        width: 350px;
+        height: 350px;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+
+    /* SERVICE PAGE -------------------------- */
+
+    .services-text-header {
+        width: 80%;
+        text-align: center;
+    }
+
+    .service-info {
+        padding: 10vh 220px;
+    }
+
+    .service-info p {
+        width: 90%;
+    }
+
+    .info-img img {
+        width: 350px;
+        height: 350px;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+
+    .review-info {
+        padding: 10vh 200px;
+    }
+
+    .contact {
+        background-color: rgb(243, 245, 239);
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        height: 60vh;
+        padding: 5vh 220px;
+    }
+
+    .footer {
+        background-color: rgb(94, 94, 94);
+        display: flex;
+        padding: 50px 220px;
+    }
+}
+
+@media only screen and (max-width:1280px) {
+    .navbar {
+        padding: 35px 160px;
+    }
+
+    .header {
+        padding: 5vh 160px;
+        font-size: 24px;
+    }
+
+    .hero {
+        /* background-color: rgb(255, 77, 106, 0.2); */
+        padding: 30vh 160px;
+    }
+
+    .hero-text h1 {
+        font-size: 38px;
+        width: 60%;
+    }
+
+    .hero-text p {
+        margin-top: 10px;
+        font-size: 22px;
+    }
+
+    .quote {
+        padding: 15vh 50px;
+    }
+
+    .quote-text h2 {
+        font-size: 26px;
+    }
+
+    .quote-text p {
+        font-size: 18px;
+    }
+
+    .short-about {
+        padding: 10vh 160px;
+    }
+
+    .short-about h1 {
+        font-size: 40px;
+    }
+
+    .short-about p {
+        font-size: 18px;
+    }
+
+    .s-about-img img {
+        width: 350px;
+        height: 350px;
+    }
+
+    .services {
+        background-color: rgb(154, 174, 155);
+        color: rgb(243, 245, 239);
+        padding: 15vh 160px;
+        display: flex;
+    }
+
+    .services h2 {
+        font-size: 36px;
+    }
+
+    .services p {
+        font-size: 18px;
+    }
+
+    .service-list li {
+        font-family: 'Questrial';
+        list-style: circle;
+        padding: 10px 0;
+        margin-left: 100px;
+        font-size: 20px;
+    }
+
+    .reviews {
+        background-color: rgb(243, 245, 239);
+        color: rgb(79, 79, 79);
+        padding: 15vh 160px;
+    }
+
+    .reviews img {
+        width: 350px;
+        height: 350px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+
+    .reviews .reviews-text h1 {
+        font-size: 36px;
+    }
+
+    .reviews .reviews-text p {
+        font-size: 18px;
+    }
+
+    /* ABOUT PAGE ---------------------------- */
+
+    .about {
+        padding: 10vh 160px;
+    }
+
+    .about h1 {
+        font-size: 40px;
+        padding-bottom: 25px;
+    }
+
+    .about p {
+        color: rgb(94, 94, 94);
+        font-size: 18px;
+        padding-bottom: 25px;
+    }
+
+    .about-img img {
+        width: 350px;
+        height: 350px;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+
+    /* SERVICE PAGE -------------------------- */
+
+    .services-text-header {
+        width: 80%;
+        text-align: center;
+    }
+
+    .service-info {
+        padding: 10vh 160px;
+    }
+
+    .service-info p {
+        width: 90%;
+    }
+
+    .info-img img {
+        width: 350px;
+        height: 350px;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+
+    hr {
+        width: 75%;
+    }
+
+
+    /* REVIEW PAGE -------------------- */
+    .review-info {
+        padding: 10vh 160px;
+    }
+
+    .reviews-quote-text {
+        font-size: 26px;
+    }
+
+    .review-info h3 {
+        font-size: 26px;
+        font-weight: 500;
+        color: rgb(177, 100, 129);
+    }
+
+    .review-info p {
+        font-size: 20px;
+        line-height: 36px;
+    }
+
+
+
+    /* CONTACT PAGE -------------------- */
+    .contact {
+        height: 60vh;
+        padding: 10vh 160px;
+    }
+
+    /* FOOTER PAGE ---------------------- */
+    .footer {
+        background-color: rgb(94, 94, 94);
+        display: flex;
+        padding: 50px 160px;
+    }
+}
+
+@media only screen and (max-width:1024px) {
+    .navbar {
+        padding: 35px 80px;
+    }
+
+    .header {
+        padding: 5vh 80px;
+        font-size: 24px;
+    }
+
+    .hero {
+        /* background-color: rgb(255, 77, 106, 0.2); */
+        padding: 30vh 80px;
+    }
+
+    .hero-text h1 {
+        font-size: 38px;
+        width: 60%;
+    }
+
+    .hero-text p {
+        margin-top: 10px;
+        font-size: 22px;
+    }
+
+    .quote {
+        padding: 15vh 0px;
+    }
+
+    .quote-text h2 {
+        font-size: 26px;
+    }
+
+    .quote-text p {
+        font-size: 18px;
+    }
+
+    .short-about {
+        padding: 10vh 80px;
+    }
+
+    .short-about h1 {
+        font-size: 40px;
+    }
+
+    .short-about p {
+        font-size: 18px;
+    }
+
+    .s-about-img img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .services {
+        padding: 15vh 80px;
+    }
+
+    .reviews {
+        padding: 15vh 80px;
+    }
+
+    .reviews img {
+        width: 300px;
+        height: 300px;
+    }
+
+
+    /* ABOUT PAGE ---------------------------- */
+
+    .about {
+        padding: 10vh 80px;
+    }
+
+
+    .about-img img {
+        width: 300px;
+        height: 300px;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+
+    .about-quote-hero {
+        width: 100%;
+    }
+
+
+    /* SERVICE PAGE -------------------------- */
+
+    .services-text-header {
+        width: 95%;
+        text-align: center;
+    }
+
+    .service-info {
+        padding: 10vh 80px;
+    }
+
+    .info-img img {
+        width: 300px;
+        height: 300px;
+    }
+
+    hr {
+        width: 85%;
+    }
+
+    .inner-info-text {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #list-services {
+        /* background-color: orange; */
+        padding-top: 50px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .list1 {
+        width: 50%;
+    }
+
+    .list2 {
+        width: 50%;
+    }
+
+    .service-hero {
+        padding: 10vh 80px;
+    }
+
+    .service-button-hero {
+        width: 80%;
+    }
+
+    /* REVIEW PAGE -------------------- */
+    .review-info {
+        padding: 10vh 80px;
+    }
+
+    .reviews-quote-text {
+        font-size: 22px;
+    }
+
+    .review-info h3 {
+        font-size: 24px;
+        font-weight: 500;
+        color: rgb(177, 100, 129);
+    }
+
+
+    /* CONTACT PAGE -------------------- */
+    .contact {
+        height: 60vh;
+        padding: 30vh 80px;
+    }
+
+    /* FOOTER PAGE ---------------------- */
+    .footer {
+        background-color: rgb(94, 94, 94);
+        display: flex;
+        padding: 50px 80px;
+    }
+}
+
+@media (max-width: 768px) {
+    .links {
+        /* menu */
+        width: 100%;
+        max-height: 0;
+        overflow: hidden;
+    }
+
+    #toggle-btn {
+        display: inline-flex;
+        color: rgb(57, 57, 57);
+        padding-top: 20px;
+    }
+
+    #toggler:checked~.links {
+        max-height: 100%;
+    }
+
+    .navigation .navbar {
+        /* list */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .links .links-list {
+        /* list */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .links .links-list ul {
+        /* list */
+        /* background-color: orange; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-right: 20px;
+        /* padding: 20px; */
+    }
+
+    .links .links-list ul li {
+        padding: 15px 15px 15px 30px;
+    }
+
+    .navigation button {
+        margin-left: 20px;
+    }
+
+    .logo img {
+        max-width: 100%;
+        max-height: 60px;
+    }
+
+    .navbar {
+        padding: 35px 40px;
+    }
+
+    .header {
+        padding: 5vh 40px;
+        font-size: 24px;
+    }
+
+    .hero {
+        /* background-color: rgb(255, 77, 106, 0.2); */
+        padding: 30vh 40px;
+    }
+
+    .hero-text h1 {
+        font-size: 38px;
+        width: 90%;
+    }
+
+    .hero-text p {
+        margin-top: 10px;
+        font-size: 22px;
+    }
+
+    .quote {
+        padding: 12vh 0px;
+    }
+
+    .quote-hero {
+        /* background-color: pink; */
+        width: 80%;
+    }
+
+    .quote-text h2 {
+        font-size: 22px;
+    }
+
+    .quote-text p {
+        font-size: 16px;
+    }
+
+    .short-about {
+        padding: 10vh 40px;
+    }
+
+    .short-about h1 {
+        font-size: 40px;
+        padding-bottom: 20px;
+    }
+
+    .short-about p {
+        font-size: 16px;
+    }
+
+    .s-about-img img {
+        width: 250px;
+        height: 250px;
+    }
+
+    .services {
+        padding: 15vh 40px;
+    }
+
+    .service-text h1 {
+        font-size: 40px;
+        padding-bottom: 20px;
+    }
+
+    .service-text p {
+        font-size: 16px;
+        padding-bottom: 30px;
+    }
+
+    .service-list li {
+        font-size: 20px;
+    }
+
+
+    .reviews {
+        padding: 15vh 40px;
+    }
+
+    .reviews img {
+        width: 250px;
+        height: 250px;
+    }
+
+    .reviews .reviews-text h1 {
+        font-size: 40px;
+    }
+
+    .reviews .reviews-text p {
+        font-size: 16px;
+    }
+
+
+    /* ABOUT PAGE ---------------------------- */
+
+    .about {
+        padding: 10vh 40px;
+    }
+
+    .about .inner-about {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .about p {
+        width: 100%;
+    }
+
+    .about-img img {
+        width: 250px;
+        height: 250px;
+        padding-bottom: 30px;
+    }
+
+    .about-quote {
+        padding: 10vh 40px;
+    }
+
+
+
+    /* SERVICE PAGE -------------------------- */
+
+    .services-text-header {
+        width: 95%;
+        text-align: center;
+    }
+
+    .service-info {
+        padding: 10vh 40px;
+    }
+
+    .service-info h1 {
+        font-size: 36px;
+        padding-bottom: 30px;
+    }
+
+    .service-info p {
+        font-size: 16px;
+        padding-bottom: 30px;
+    }
+
+    .info-img img {
+        width: 250px;
+        height: 250px;
+    }
+
+    hr {
+        width: 90%;
+    }
+
+    .inner-info-text {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #list-services {
+        /* background-color: orange; */
+        padding-top: 50px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .list1 {
+        width: 50%;
+    }
+
+    .list2 {
+        width: 50%;
+    }
+
+    .service-hero {
+        padding: 10vh 80px;
+    }
+
+    .service-button-hero {
+        width: 100%;
+    }
+
+    /* REVIEW PAGE -------------------- */
+    .review-info {
+        padding: 10vh 40px;
+    }
+
+    .reviews-quote-text {
+        font-size: 22px;
+    }
+
+    .review-inner-quote {
+        display: flex;
+        flex-direction: column;
+        /* background-color: orange; */
+    }
+
+    .review-inner-quote .text {
+        padding: 30px 0;
+        width: 80%;
+        /* background-color: teal; */
+        /* width: 50%; */
+    }
+
+
+    .review-inner-quote .text2 {
+        padding: 30px 0;
+        width: 80%;
+    }
+
+    .review-info h3 {
+        font-size: 24px;
+        font-weight: 500;
+        color: rgb(177, 100, 129);
+    }
+
+
+    /* CONTACT PAGE -------------------- */
+    .contact {
+        height: 10vh;
+        padding: 30vh 40px;
+    }
+
+    /* FOOTER PAGE ---------------------- */
+    .footer {
+        background-color: rgb(94, 94, 94);
+        display: flex;
+        padding: 0px 40px;
+        height: auto;
+    }
+
+    .footer .links {
+        padding: 80px 20px;
+    }
+}
+
+@media (max-width: 551px) {
+    .links {
+        /* menu */
+        width: 100%;
+        max-height: 0;
+        overflow: hidden;
+    }
+
+    #toggle-btn {
+        display: inline-flex;
+        color: rgb(57, 57, 57);
+        padding-top: 20px;
+    }
+
+    #toggler:checked~.links {
+        max-height: 100%;
+    }
+
+    .navigation .navbar {
+        /* list */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .links .links-list {
+        /* list */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .links .links-list ul {
+        /* list */
+        /* background-color: orange; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-right: 20px;
+        /* padding: 20px; */
+    }
+
+    .links .links-list ul li {
+        padding: 15px 15px 15px 30px;
+    }
+
+    .navigation button {
+        margin-left: 20px;
+    }
+
+    .logo img {
+        max-width: 100%;
+        max-height: 60px;
+    }
+
+    .navbar {
+        padding: 35px 40px;
+    }
+
+    .hero {
+        /* background-color: rgb(255, 77, 106, 0.2); */
+        padding: 20vh 40px;
+    }
+
+    .header {
+        padding: 5vh 40px;
+        font-size: 24px;
+    }
+
+    .landing-hero {
+        background-image: url(img/services/pregnant.jpg);
+        /* background-image: none; */
+        background-blend-mode: multiply;
+        background-color: rgba(70, 70, 70, 0.4);
+        /* background-color: rgb(154, 174, 155); */
+    }
+
+
+
+    .quote-hero {
+        /* background-color: pink; */
+        width: 80%;
+    }
+
+    .quote-text h2 {
+        font-size: 22px;
+    }
+
+    .quote-text p {
+        font-size: 16px;
+    }
+
+    .short-about .inner-s-about {
+        flex-direction: column-reverse;
+    }
+
+    .short-about h1 {
+        padding-top: 30px;
+    }
+
+    .inner-services {
+        flex-direction: column;
+        /* background-color: orange; */
+    }
+
+    .service-text {
+        width: 100%;
+    }
+
+    .service-text h1 {
+        font-size: 40px;
+        padding-bottom: 20px;
+    }
+
+    .service-text p {
+        font-size: 16px;
+        padding-bottom: 30px;
+    }
+
+    .service-list {
+        /* background-color: teal; */
+        padding-top: 50px;
+        align-items: flex-start;
+        justify-content: flex-start;
+        width: 100%;
+    }
+
+    .service-list li {
+        /* background-color: orange; */
+        padding: 5px;
+        margin: 20px;
+        font-size: 20px;
+    }
+
+
+    .reviews img {
+        width: 250px;
+        height: 250px;
+    }
+
+    .reviews .inner-reviews {
+        display: flex;
+        flex-direction: column;
+        /* background-color: orange; */
+    }
+
+
+    .reviews .reviews-text {
+        padding: 30px 0 0 0;
+    }
+
+
+    /* ABOUT PAGE ---------------------------- */
+
+    .about {
+        padding: 10vh 40px;
+    }
+
+    .about .inner-about {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .about p {
+        width: 100%;
+    }
+
+    .about-img img {
+        width: 250px;
+        height: 250px;
+        padding-bottom: 30px;
+    }
+
+    .about-quote {
+        padding: 10vh 40px;
+    }
+
+
+
+    /* SERVICE PAGE -------------------------- */
+
+    .services-text-header {
+        width: 95%;
+        text-align: center;
+    }
+
+    .service-info {
+        padding: 10vh 40px;
+    }
+
+    .service-info h1 {
+        font-size: 36px;
+        padding-bottom: 30px;
+    }
+
+    .service-info p {
+        font-size: 16px;
+        padding-bottom: 30px;
+    }
+
+    .info-img img {
+        width: 250px;
+        height: 250px;
+    }
+
+    hr {
+        width: 90%;
+    }
+
+    .inner-info-text {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #list-services {
+        /* background-color: orange; */
+        padding-top: 50px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .list1 {
+        width: 50%;
+    }
+
+    .list2 {
+        width: 50%;
+    }
+
+    .service-hero {
+        padding: 10vh 80px;
+    }
+
+    .service-button-hero {
+        width: 100%;
+    }
+
+    /* REVIEW PAGE -------------------- */
+    .review-info {
+        padding: 10vh 40px;
+    }
+
+    .reviews-quote-text {
+        font-size: 22px;
+    }
+
+    .review-inner-quote {
+        display: flex;
+        flex-direction: column;
+        /* background-color: orange; */
+    }
+
+    .review-inner-quote .text {
+        padding: 30px 0;
+        width: 80%;
+        /* background-color: teal; */
+        /* width: 50%; */
+    }
+
+
+    .review-inner-quote .text2 {
+        padding: 30px 0;
+        width: 80%;
+    }
+
+    .review-info h3 {
+        font-size: 24px;
+        font-weight: 500;
+        color: rgb(177, 100, 129);
+    }
+
+
+    /* CONTACT PAGE -------------------- */
+    .contact {
+        height: 10vh;
+        padding: 30vh 40px;
+    }
+
+    /* FOOTER PAGE ---------------------- */
+    .footer {
+        background-color: rgb(94, 94, 94);
+        display: flex;
+        padding: 0px 40px;
+    }
+
+    .footer .links {
+        height: auto;
+        background-color: teal;
+        padding: 100px 50px;
+        flex-direction: column;
+    }
+
+
+    .footer .links .socials ul {
+        flex-direction: row;
+    }
+
+    .footer .links .socials ul li {
+        padding: 10px;
+    }
+
+    .footer .links .site ul li {
+        padding: 10px;
+    }
+
+
+}
