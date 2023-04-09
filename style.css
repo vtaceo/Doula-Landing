@@ -1975,13 +1975,17 @@ textarea:focus {
         padding: 10vh 40px;
     }
 
+    .hero-text h1 {
+        font-size: 30px;
+    }
+
     .quote-hero {
         /* background-color: pink; */
         width: 80%;
     }
 
-    .quote-text h2 {
-        font-size: 22px;
+    .quote-text h1 {
+        font-size: 36px;
     }
 
     .quote-text p {
@@ -2086,6 +2090,14 @@ textarea:focus {
         text-align: center;
     }
 
+    .services-text-header h1 {
+        font-size: 36px;
+    }
+
+    .services-text-header p {
+        font-size: 16px;
+    }
+
     .service-info {
         padding: 10vh 40px;
     }
@@ -2103,66 +2115,97 @@ textarea:focus {
     .info-img img {
         width: 250px;
         height: 250px;
+        padding-bottom: 30px;
     }
 
     hr {
-        width: 90%;
+        width: 80%;
     }
 
-    .inner-info-text {
+    .inner-info {
+        /* background-color: orange; */
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    #list-services {
+        padding-top: 50px;
         display: flex;
         flex-direction: column;
     }
 
-    #list-services {
-        /* background-color: orange; */
-        padding-top: 50px;
-        display: flex;
-        flex-direction: row;
+    .list1 {
+        width: 100%;
+        padding-top: 20px;
     }
 
-    .list1 {
-        width: 50%;
+    .list1 ul {
+        width: 90%;
     }
 
     .list2 {
-        width: 50%;
+        width: 100%;
+        padding-top: 20px;
+    }
+
+    .list2 ul {
+        width: 90%;
     }
 
     .service-hero {
-        padding: 10vh 80px;
+        padding: 10vh 40px;
     }
 
     .service-button-hero {
         width: 100%;
     }
 
+    .service-button-hero button {
+        padding: 20px 25px;
+    }
+
     /* REVIEW PAGE -------------------- */
+    .reviews-text-header h1 {
+        font-size: 36px;
+    }
+
+    .reviews-quote-text p {
+        font-size: 16px;
+        line-height: 35px;
+    }
+
     .review-info {
         padding: 10vh 40px;
     }
 
-    .reviews-quote-text {
-        font-size: 22px;
+    .reviews-quote {
+        height: 30vh;
     }
+
+    .review-inner-quote .text {
+        padding: 10px 0;
+        width: 100%;
+        padding-bottom: 50px;
+    }
+
+    .review-inner-quote .text p {
+        padding: 0;
+    }
+
 
     .review-inner-quote {
         display: flex;
         flex-direction: column;
-        /* background-color: orange; */
-    }
-
-    .review-inner-quote .text {
-        padding: 30px 0;
-        width: 80%;
-        /* background-color: teal; */
-        /* width: 50%; */
     }
 
 
     .review-inner-quote .text2 {
-        padding: 30px 0;
-        width: 80%;
+        padding: 10px 0;
+        width: 100%;
+    }
+
+    .review-inner-quote .text2 p {
+        padding: 0;
     }
 
     .review-info h3 {
@@ -2173,10 +2216,23 @@ textarea:focus {
 
 
     /* CONTACT PAGE -------------------- */
+    .contact-text-header h1 {
+        font-size: 36px;
+    }
+
     .contact {
         height: 10vh;
         padding: 30vh 40px;
     }
+
+    .contact-form {
+        width: 100%;
+    }
+
+    .contact-form p {
+        font-size: 18px;
+    }
+
 
     /* FOOTER PAGE ---------------------- */
     .footer {
