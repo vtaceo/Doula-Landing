@@ -2226,7 +2226,7 @@ textarea:focus {
 
     .contact {
         height: 15vh;
-        padding: 30vh 40px;
+        padding: 25vh 40px;
     }
 
     .contact-form {
@@ -2284,6 +2284,15 @@ textarea:focus {
 
     .footer .links .site ul li {
         padding: 10px;
+    }
+
+
+}
+
+
+@media (max-width: 375px) {
+    .contact {
+        padding: 35vh 40px;
     }
 
 
