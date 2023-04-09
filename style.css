@@ -2055,6 +2055,10 @@ textarea:focus {
         padding: 30px 0 0 0;
     }
 
+    .reviews .reviews-text button {
+        padding: 20px 35px;
+    }
+
 
     /* ABOUT PAGE ---------------------------- */
 
@@ -2251,6 +2255,13 @@ textarea:focus {
         padding-bottom: 10px;
     }
 
+    .footer .links .socials img {
+        background-color: white;
+        border-radius: 100px;
+        border: none;
+        width: 35px;
+    }
+
     .footer .links .socials ul {
         flex-direction: row;
     }
@@ -2265,6 +2276,10 @@ textarea:focus {
 
     .footer .links .site {
         padding-bottom: 10px;
+    }
+
+    .footer .links .site a {
+        font-size: 14px;
     }
 
     .footer .links .site ul li {
